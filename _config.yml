@@ -1,0 +1,49 @@
+title: Inseon Jeong
+description: Political Science Job Market Candidate
+url: "https://username.github.io"   # username을 본인 깃허브 아이디로
+theme: minimal-mistakes-jekyll       # (로컬용) gem 기반 테마명
+remote_theme: mmistakes/minimal-mistakes  # (GitHub Actions용) 원격 테마
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+minimal_mistakes_skin: default
+locale: ko
+markdown: kramdown
+
+author:
+  name: "Inseon Jeong"
+  avatar: /assets/img/profile.jpg     # 프로필 사진 경로
+  bio: "Ph.D. Candidate, UC San Diego · IR & Methods"
+  links:
+    - label: "CV (PDF)"
+      icon: "fas fa-file"
+      url: /assets/cv.pdf
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:you@ucsd.edu"
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: https://scholar.google.com/
+    - label: "X"
+      icon: "fab fa-x-twitter"
+      url: https://x.com/yourhandle
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+nav:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research/
+  - title: Teaching
+    url: /teaching/
+  - title: Publications
+    url: /publications/
+  - title: Job Market Paper
+    url: /jmp/
+  - title: CV
+    url: /cv/
