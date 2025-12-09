@@ -1,6 +1,6 @@
 title: Inseon Jeong
 description: Political Science Job Market Candidate
-url: "https://username.github.io"   # username을 본인 깃허브 아이디로
+url: "https://inseonJeong.github.io"   # username을 본인 깃허브 아이디로
 theme: minimal-mistakes-jekyll       # (로컬용) gem 기반 테마명
 remote_theme: mmistakes/minimal-mistakes  # (GitHub Actions용) 원격 테마
 plugins:
